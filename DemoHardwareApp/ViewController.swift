@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     @IBAction func OffButtonPressed(sender: AnyObject) {
         OffButton.alpha = 1.0
         print("Off Button Pressed")
-        pebbleController.sendDictionary([NSNumber(int: 0): NSString(string: "Wong")], completionHandler: { (error) -> Void in
+        pebbleController.sendDictionary([NSNumber(int: 0): NSNumber(int: 12)], completionHandler: { (error) -> Void in
             print("Sent message with artist", "Edrick", "and title", "My love")
         })
     }
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @IBAction func OnButtonPressed(sender: AnyObject) {
         OnButton.alpha = 1.0
         print("On Button Pressed")
-        pebbleController.sendDictionary([NSNumber(int: 0): NSString(string: "Edrick")], completionHandler: { (error) -> Void in
+        pebbleController.sendDictionary([NSNumber(int: 0): NSNumber(int: 11)], completionHandler: { (error) -> Void in
             print("Sent message with artist", "Edrick", "and title", "My love")
         })
     }

@@ -84,7 +84,7 @@ class PebbleCommunication: NSObject, PBPebbleCentralDelegate {
         })
     }
     
-    func sendDictionary(dictionary: [NSNumber: NSString], completionHandler: (error: NSError?) -> Void) {
+    func sendDictionary(dictionary: [NSNumber: NSNumber], completionHandler: (error: NSError?) -> Void) {
         if dictionary.isEmpty {
             return
         }
