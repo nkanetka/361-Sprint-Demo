@@ -19,10 +19,10 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esj-RH-PwY">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
-                                <color key="backgroundColor" red="0.11764705882352941" green="0.50980392156862742" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.76470588235294112" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <state key="normal" title="On">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="OnButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iCv-Wo-yr5"/>
@@ -31,10 +31,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maG-cp-CWO">
                                 <rect key="frame" x="300" y="0.0" width="300" height="600"/>
-                                <color key="backgroundColor" red="0.58823529411764708" green="0.15686274509803921" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.39215686274509803" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <state key="normal" title="Off">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="OffButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rp4-4W-IxM"/>

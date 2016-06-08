@@ -47,10 +47,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func OnButtonTouchDown(sender: AnyObject) {
-        OnButton.alpha = 0.8
+        OnButton.alpha = 0.5
     }
     @IBAction func OffButtonTouchDown(sender: AnyObject) {
-        OffButton.alpha = 0.8
+        OffButton.alpha = 0.5
     }
     
     func setPebbleStatusConnected() {
